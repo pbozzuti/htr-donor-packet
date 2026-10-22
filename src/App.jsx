@@ -77,10 +77,11 @@ export default function App() {
         <section>
           <h2>Community Sponsors</h2>
           <p>Thank you to our community sponsors who have supported this project! If you choose to donate to <i>How to Rob the Art Institute of Chicago</i>, your name will help appear on this list.</p>
-        </section>
+          <p> </p>
         <div className="sponsors-wrap">
           <Sponsors items={sponsors} />
         </div>
+        </section>
 
         <section>
           <h2>Want to get involved?</h2>
