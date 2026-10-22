@@ -14,6 +14,10 @@ export const tiers = [
   { amount: '$1,000', text: 'This donation covers the cost of renting a venue for 2 performances.' },
 ];
 
+export const sponsors = [
+  { name: 'Your Name Here'}
+];
+
 export const links = {
   sample: '#',
   donate: '#',

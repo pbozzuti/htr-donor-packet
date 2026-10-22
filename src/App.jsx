@@ -3,7 +3,8 @@ import Hero from './components/Hero.jsx';
 import PinPanel from './components/PinPanel.jsx';
 import Timeline from './components/Timeline.jsx';
 import Tiers from './components/Tiers.jsx';
-import { timeline, tiers, links } from './data.js';
+import Sponsors from './components/Sponsors.jsx';
+import { timeline, tiers, links, sponsors } from './data.js';
 
 export default function App() {
   const heroOverlayRef = useRef(null);
@@ -75,7 +76,11 @@ export default function App() {
 
         <section>
           <h2>Community Sponsors</h2>
+          <p>Thank you to our community sponsors who have supported this project! If you choose to donate to <i>How to Rob the Art Institute of Chicago</i>, your name will help appear on this list.</p>
         </section>
+        <div className="sponsors-wrap">
+          <Sponsors items={sponsors} />
+        </div>
 
         <section>
           <h2>Want to get involved?</h2>

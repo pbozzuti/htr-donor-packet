@@ -10,7 +10,7 @@ export default function Hero() {
     <section className="hero" ref={heroRef}>
       <img className="hero-img" src="/other-hero.png" alt="" />
       <h1 ref={titleRef}>HOW TO ROB THE ART INSTITUTE OF CHICAGO</h1>
-      <p>A new play by Sam Hernandez. Produced by Adams Theatre Company.</p>
+      <p>A new play by Sam Hernandez. Directed by Octavio Montes De Oca. Produced by Adams Theatre Company.</p>
       <div className="scroll-hint">↓ scroll</div>
     </section>
   );
