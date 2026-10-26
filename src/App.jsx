@@ -70,7 +70,7 @@ export default function App() {
           <p>As a 501(c)3 organization, your tax-deductible donation will be used to fund production costs for the play's debut. Donation receipts will be provided for tax purposes and corporate gift matching.</p>
         </section>
         <section>
-          <a href="https://www.zeffy.com/en-US/donation-form/how-to-rob-the-art-institute-of-chicago" className="btn">Donate Now</a>
+          <a href="https://www.zeffy.com/en-US/donation-form/how-to-rob-the-art-institute-of-chicago" className="btn" target="_blank" >Donate Now</a>
         </section>
         <Tiers items={tiers} />
 
