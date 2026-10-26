@@ -50,10 +50,10 @@ export default function App() {
           <h2>The Play</h2>
           <p>On a cold Chicago night, four friends debate a serious question: Is stealing Indigenous art of Latin America a radical act of decolonization or a stupid way to get arrested? In <i>How to Rob the Art Institute of Chicago</i>, a comedy about friendship, identity, and colonialism, four college seniors plan the most important heist of their lives.</p>
           <Timeline items={timeline} />
-          <a href={links.sample} className="btn">Read a Sample</a>
+          <a href="https://drive.google.com/file/d/1olkIs4eUn38mYOcnGg5k4L8aIebgdd0p/view?usp=sharing" className="btn" target="_blank">Read a Sample</a>
         </section>
         <section>
-          <h2>The People</h2>
+          <h2>The Community</h2>
           <p><i>How to Rob the Art Institute of Chicago</i> began as a response to experiences of Latine identity in the context of predominantly white institutions, and evolved into a story about grief, family, and finding the courage to decolonize individual identity. From playwright Sam Hernandez, director Octavio Montes De Oca, and Adams Theatre Company, our team is committed to building a diverse cast and production team to bring this story to the stage in the most authentic way possible.</p>
         </section>
         <section>
@@ -70,14 +70,13 @@ export default function App() {
           <p>As a 501(c)3 organization, your tax-deductible donation will be used to fund production costs for the play's debut. Donation receipts will be provided for tax purposes and corporate gift matching.</p>
         </section>
         <section>
-          <a href={links.donate} className="btn">Donate Now</a>
+          <a href="https://www.zeffy.com/en-US/donation-form/how-to-rob-the-art-institute-of-chicago" className="btn">Donate Now</a>
         </section>
         <Tiers items={tiers} />
 
         <section>
           <h2>Community Sponsors</h2>
           <p>Thank you to our community sponsors who have supported this project! If you choose to donate to <i>How to Rob the Art Institute of Chicago</i>, your name will help appear on this list.</p>
-          <p> </p>
         <div className="sponsors-wrap">
           <Sponsors items={sponsors} />
         </div>
@@ -86,7 +85,7 @@ export default function App() {
         <section>
           <h2>Want to get involved?</h2>
           <p>If you're interested in sponsoring this project or joining the team, please contact us below.</p>
-          <a href={links.contact} className="btn">Contact Adams Theatre Company</a>
+          <a href="mailto:adamstheatrecompany@gmail.com" className="btn">Contact Adams Theatre Company</a>
         </section>
       </main>
     </>
