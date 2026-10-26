@@ -50,7 +50,7 @@ export default function App() {
           <h2>The Play</h2>
           <p>On a cold Chicago night, four friends debate a serious question: Is stealing Indigenous art of Latin America a radical act of decolonization or a stupid way to get arrested? In <i>How to Rob the Art Institute of Chicago</i>, a comedy about friendship, identity, and colonialism, four college seniors plan the most important heist of their lives.</p>
           <Timeline items={timeline} />
-          <a href="https://drive.google.com/file/d/1olkIs4eUn38mYOcnGg5k4L8aIebgdd0p/view?usp=sharing" className="btn" target="_blank">Read a Sample</a>
+          <a href="https://drive.google.com/file/d/1wjKbtr0vSVLlN0oLHe8QYfmFSq-zP0QI/view?usp=sharing" className="btn" target="_blank">Read a Sample</a>
         </section>
         <section>
           <h2>The Community</h2>
