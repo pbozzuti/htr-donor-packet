@@ -58,7 +58,7 @@ export default function App() {
         </section>
         <section>
           <h2>The Reason</h2>
-          <p><i>How to Rob The Art Institute of Chicago</i> is a radical and timely play that will provide an avenue for Latine Chicago theatre artists and audiences to have important conversations regarding identity, colonization, and grief. The play addresses these topics with nuance, humor, and heart. After two years of developmental readings and workshops, the play is ready and eager to be brought to life on stage.</p>
+          <p><i>How to Rob The Art Institute of Chicago</i> is a bold and timely play that will provide an avenue for Latine Chicago theatre artists and audiences to have important conversations regarding identity, colonization, and grief. The play addresses these topics with nuance, humor, and heart. After two years of developmental readings and workshops, the play is ready and eager to be brought to life on stage.</p>
         </section>
       </main>
 
