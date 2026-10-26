@@ -256,6 +256,7 @@ min-height: 100vh;       /* full screen; remove if you want it shorter */
   left: 50%;
   width: min(1100px, calc(100vw - 3rem));
   transform: translateX(-50%);
+  margin-top: 2rem;
 }
 
 .sponsors {
